@@ -40,3 +40,33 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction)
+
+
+//**************************************************************** */
+
+// Stack (Primitive), Heap (Non Primitive)
+
+let myName = "Rakesh Rawal"
+
+let anotherName = myName
+anotherName = "mycode"
+
+console.log(myName);
+
+console.log(anotherName)
+ 
+
+let user = {
+    email: "user@gmail.com",
+    phone: 9858858888,
+}
+
+let userTwo = user
+
+userTwo.email = "rakeshrawal@gmail.com"
+
+
+console.log(user.email);
+console.log(userTwo.email);
+
+
